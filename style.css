@@ -1,0 +1,53 @@
+.smart-car-app {
+    font-family: sans-serif;
+    width: 400px;
+    margin: 50px auto;
+  }
+  
+  .login, .user-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login label, .login input, .user-page .car-info-label {
+    margin: 5px 0;
+  }
+  
+  .login input, .user-page .car-info-value {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login button, .user-page button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login button:hover, .user-page button:hover {
+    background-color: #0062cc;
+  }
+  
+  #login-error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .user-page .car-info {
+    margin-top: 20px;
+  }
+  
+  .user-page .car-info-label {
+    font-weight: bold;
+  }
+  
+  .user-page .car-info-value {
+    margin-left: 5px;
+  }
+  
